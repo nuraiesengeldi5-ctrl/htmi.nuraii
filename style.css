@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя профессия — Системный администратор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Шапка -->
+<header>
+    <h1>Моя профессия</h1>
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">О нас</a>
+        <a href="#">Услуги</a>
+        <a href="#">Контакты</a>
+    </nav>
+</header>
+
+<!-- Баннер -->
+<section class="banner">
+    <h2>Системный администратор</h2>
+    <p>Настройка, поддержка и защита компьютерных сетей</p>
+    <button>Подробнее</button>
+</section>
+
+<!-- О нас -->
+<section class="about">
+    <h2>О нас</h2>
+    <div class="about-content">
+        <img src="https://via.placeholder.com/300" alt="image">
+        <p>
+            Я обучаюсь на техника сетевого и системного администрирования.
+            Эта профессия связана с настройкой компьютеров и сетей.
+            Мы изучаем серверы, безопасность и интернет-технологии.
+            Системные администраторы нужны в любой компании.
+            Это востребованная и хорошо оплачиваемая профессия.
+            Я хочу развиваться в IT и стать профессионалом.
+        </p>
+    </div>
+</section>
+
+<!-- Услуги -->
+<section class="services">
+    <h2>Услуги</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Настройка ПК</h3>
+            <p>Установка программ и системы</p>
+            <button>Заказать</button>
+        </div>
+
+        <div class="card">
+            <h3>Сети</h3>
+            <p>Настройка интернета и локальных сетей</p>
+            <button>Заказать</button>
+        </div>
+
+        <div class="card">
+            <h3>Безопасность</h3>
+            <p>Защита данных и антивирус</p>
+            <button>Заказать</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- Контакты -->
+<section class="contacts">
+    <h2>Контакты</h2>
+
+    <p>Телефон: +7 777 000 00 00</p>
+    <p>Email: example@mail.com</p>
+    <p>Адрес: Казахстан</p>
+
+    <form>
+        <input type="text" placeholder="Имя">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Сообщение"></textarea>
+        <button type="submit">Отправить</button>
+    </form>
+</section>
+
+<!-- Подвал -->
+<footer>
+    <p>© 2026 Моя профессия</p>
+    <p>Instagram | WhatsApp | Telegram</p>
+</footer>
+
+</body>
+</html>
